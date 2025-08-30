@@ -73,7 +73,7 @@ body {
     border-radius: 30px;
 }
 .content {
-    padding: 0 24px;
+    padding-left: 24px;
     margin-bottom: var(--spacing-150);
 }
 .learning-button {
@@ -99,4 +99,13 @@ body {
 .author img {
     width: 32px;
     margin-right: 12px;
+}
+@media screen and (max-width: 384px) {
+    .card {
+        height: 501px;
+        width: 327px;
+    }
+    .image {
+        width: 325px;
+    }
 }
