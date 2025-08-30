@@ -2,29 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Blog preview card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
+  <div class="container">
+    <div class="card">
+      <img class="image" src="./assets/images/illustration-article.svg">
+      <div class="content">
+        <button class="learning-button"> 
+          <label><p class="text-preset-3-bold"> Learning </p></label>
+        </button>
+        <p class="text-preset-3 note-2"> Published 21 Dec 2023 </p>
+        <h2 class="text-preset-1"> HTML & CSS foundations </h2>
+        <p class="text-preset-2 note"> These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      </div>
+      <div class="author">
+        <img src="./assets/images/image-avatar.webp" alt="image avatar">
+        <p class="text-preset-3-bold"> Greg Hooper </p>
+      </div>
+    </div>
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
